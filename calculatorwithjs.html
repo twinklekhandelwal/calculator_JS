@@ -1,0 +1,50 @@
+<html>
+<head>
+    
+<link rel="stylesheet" href="cal.css">
+</head>
+<body>
+<div id="main">
+    <form name="Form">
+
+  
+<input type="text" name="Text" class="textfield" disabled>
+    <table>
+    <tr >
+        <td><input type="button" value="7" class="calbutton change" onclick="Form.Text.value+='7' "></button></td>
+        <td><input type="button" value="8" class="calbutton change" onclick="Form.Text.value+='8' "></button></td>
+        <td><input type="button" value="9" class="calbutton change" onclick="Form.Text.value+='9'
+        "></button></td>
+        <td><input type="button" value="+" class="calbutton gray change" onclick="Form.Text.value+='+'"></button></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" class="calbutton" onclick="Form.Text.value+='4'"></button></td>
+        <td><input type="button" value="5" class="calbutton" onclick="Form.Text.value+='5'"></button></td>
+        <td><input type="button" value="6" class="calbutton" onclick="Form.Text.value+='6'"></button></td>
+        <td><input type="button" value="-" class="calbutton gray" onclick="Form.Text.value+='-'"></button></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" class="calbutton change" onclick="Form.Text.value+='1'"></button></td>
+        <td><input type="button" value="2" class="calbutton change" onclick="Form.Text.value+='2'"></button></td>
+        <td><input type="button" value="3" class="calbutton change" onclick="Form.Text.value+='3'"></button></td>
+        <td><input type="button" value="/" class="calbutton gray change" onclick="Form.Text.value+='/'"></button></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="0" class="calbutton" onclick="Form.Text.value+='0' "></button></td>
+        <td><input type="button" value="." class="calbutton silver" onclick="Form.Text.value+='.'"></button></td>
+        <td><input type="button" value="c" class="calbutton silver" onclick="Form.Text.value=''"></button></td>
+        <td><input type="button" value="*" class="calbutton gray" onclick="Form.Text.value+='*'" ></button></td>
+    </tr>   
+    <tr>
+        <td colspan="2"><input type="button" value="=" class="calbutton1 gray"onclick="Form.Text.value= eval(Form.Text.value)"></button></td>
+        <!-- <!-- <td><input type="button" value="2" class="calbutton"></button></td>
+        <td><input type="button" value="3" class="calbutton"></button></td>
+        <td><input type="button" value="4" class="calbutton"></button></td> -->
+    </tr>       
+                 
+        </table>
+        </form>
+</div>
+<!-- <script src="my scripts.js"></script> -->
+</body>
+</html>

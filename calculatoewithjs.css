@@ -1,0 +1,43 @@
+#main{
+    height: 325px;
+    width: 303px;
+    background-color:pink;
+    position:relative;
+    margin-left:450px;
+    margin-top:50px;
+    border-radius: 10px;
+}
+.textfield{
+    width: 303px;
+    height: 45px;
+    background-color:silver
+    
+    
+}
+.calbutton{
+    width: 70px;
+    height: 50px;
+    margin:0px;
+    background-color:white;
+    cursor: pointer;
+}
+.calbutton1{
+    width: 100px;
+    height: 50px;
+    background-color:mediumaquamarine;
+
+    cursor: pointer;
+} 
+ table{
+
+
+    border-spacing: 3px;  
+}
+.gray:hover{
+    background-color:gray;
+/* .change{
+    background-color:rosybrown;
+} */
+.silver:hover{
+    background-color:orange;
+}
